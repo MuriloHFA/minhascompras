@@ -22,6 +22,7 @@ namespace minhascompras.Models
         }
         public double Quantidade { get; set; }
         public double Preco {  get; set; }
-        public double Total { get => Quantidade * Preco; }  
+        public double Total { get => Quantidade * Preco; }
+        public DateTime DataCadastro { get; set; }
     }
 }
